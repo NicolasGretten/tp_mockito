@@ -21,6 +21,6 @@ public class LoginTest {
 	@Test
 	public void testLogin() {
 		User user = login.getLogin("Test", "Test");
-		Assert.assertEquals("Stéphane", user.getName());
+		Assert.assertEquals("Nicolas", user.getName());
 	}
 }
